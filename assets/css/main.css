@@ -4209,11 +4209,11 @@ h1, .h1 {
     h1, .h1 {
       font-size: 4rem; } }
   h1 .subline, .h1 .subline {
-    font-size: 0.7rem;
+    font-size: 1rem;
     margin-bottom: 0; }
     @media screen and (min-width: 569px) {
       h1 .subline, .h1 .subline {
-        font-size: 0.75rem; } }
+        font-size: 1rem; } }
   h1.title, .h1.title {
     font-size: 1rem;
     line-height: 1.2; }
@@ -4227,7 +4227,9 @@ h1, .h1 {
       h1.title, .h1.title {
         font-size: 2rem; } }
   .hero--headline h1, .hero--headline .h1 {
-    line-height: 1; }
+    line-height: 1;
+    color: #000;
+  }
 
 h2, .h2 {
   font-size: 2rem; }
