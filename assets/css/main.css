@@ -4342,6 +4342,23 @@ blockquote.pre-dash {
 button {
   -webkit-appearance: none !important; }
 
+.button-wrapper-main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content:center;
+
+}
+@media (max-width: 1200px) {
+  .button-wrapper-main {
+    flex-direction: column !important;
+    flex-grow: row;
+  }
+  .top-btn {
+    width: auto !important;
+  }
+}
+
 .btn {
   font-size: 1rem;
   display: block;
